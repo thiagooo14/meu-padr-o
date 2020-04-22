@@ -1,68 +1,84 @@
 body {
-  background-color: rgb(227, 229, 227);
-  font-family: Raleway, sans-serif;
+	background-color: rgb(227, 229, 227);
+	font-family: Raleway, sans-serif;
 }
 
-.font{
-  font-family: VT323, monospace;
+P {
+	line-height: 1.5;
+	margin: 0 0 1em;
+}
+
+.font {
+	font-family: VT323, monospace;
 }
 
 .cabecalho {
-  background-color: rgba(18, 85, 198, 0.8);
-  display: flex;
-  flex-wrap: wrap;
-  height: 80px;
-  justify-content: space-between;
-  position: fixed;
-  width: 100%;
+	background-color: rgba(18, 85, 198, 0.8);
+	display: flex;
+	flex-wrap: wrap;
+	height: 80px;
+	justify-content: space-between;
+	position: fixed;
+	width: 100%;
 }
 
 .titulo-principal {
-  color: rgb(227, 229, 227);
-  font-size: 5em;
-  padding-left: 5%;
-  text-shadow: #000000 3px 4px 2px;
+	color: rgb(227, 229, 227);
+	font-size: 5em;
+	padding-left: 5%;
+	text-shadow: #000000 3px 4px 2px;
 }
 
 .nav-bar {
-  margin-top: 25px;
-  padding-right: 20px;
+	margin-top: 25px;
+	padding-right: 20px;
 }
 
-.nav-bar li{
-  display: inline;
-  font-size: 2em;
-  margin-left: 18px;
+.nav-bar li {
+	display: inline;
+	font-size: 2em;
+	margin-left: 18px;
 }
 
-.nav-bar a{
-  color: rgb(227, 229, 227);
-  font-weight: 200;
-  text-decoration: none;
-  text-shadow: #000000 3px 4px 2px;
+.nav-bar a {
+	color: rgb(227, 229, 227);
+	font-weight: 200;
+	text-decoration: none;
+	text-shadow: #000000 3px 4px 2px;
 }
 
 main {
-  padding-top: 80px;
+	padding-top: 80px;
 }
 
-section{
-  border-bottom: 2px solid black;
+section {
+	border-bottom: 2px solid black;
+	text-align: center;
+}
+
+section h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 10px;
+	text-align: center;
+}
+
+article {
+	padding-bottom: 1.1em;
 }
 
 footer {
-  align-items: center;
-  background-image: url(../images//bg1.jpg);
-  bottom: 0em;
-  display: flex;
-  height: 50px;
-  justify-content: center;
-  position: absolute;
-  width: 100%;
-
+	align-items: center;
+	background-image: url(../images//bg1.jpg);
+	bottom: 0em;
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
 }
 
 .copy {
-  color: #ffffff;
-  font-size: 13px;
+	color: #ffffff;
+	font-size: 13px;
 }
